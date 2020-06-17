@@ -4,7 +4,7 @@ import App from '../app';
  
 document.addEventListener('turbolinks:load', function() {
   ReactDOM.render(
-    <App/>,
+    <App color='dark'/>,
     document.getElementById('root'),
   )
 })
